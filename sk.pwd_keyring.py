@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 
+import gi
 from gi.repository import GObject
+gi.require_version('GnomeKeyring', '1.0')
 from gi.repository import GnomeKeyring
 import sys
 import argparse
